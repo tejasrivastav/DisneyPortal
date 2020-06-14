@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {&#13;
+  "elementId" : "logout",&#13;
+  "elementLabel" : "Logout",&#13;
+  "propertyValues" : {&#13;
+    "message" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : null&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : null,&#13;
+  "definition" : {&#13;
+    "id" : "bf92f5427e475f71bc3861a1addf975d",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "styles" : { }&#13;
+} ]</composition>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <layout/>
+        <macroponent_dependencies/>
+        <name>Disney Logout </name>
+        <props>[ ]</props>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 09:24:28</sys_created_on>
+        <sys_id>c131db0f73111010791e33083cf6a776</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disney Logout </sys_name>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_macroponent_c131db0f73111010791e33083cf6a776</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 09:24:28</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

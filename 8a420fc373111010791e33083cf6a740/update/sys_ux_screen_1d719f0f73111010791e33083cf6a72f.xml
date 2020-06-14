@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="DisneyUXAppConfig">4303430773111010791e33083cf6a7f6</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Disney Search Page">9391134f73111010791e33083cf6a721</macroponent>
+        <macroponent_config>{&#13;
+  "facetFilters" : "@context.props.facetFilters",&#13;
+  "searchFilters" : "@context.props.searchFilters",&#13;
+  "searchContextConfigId" : "@context.props.searchContextConfigId",&#13;
+  "searchTerm" : "@context.props.searchTerm",&#13;
+  "label" : ""&#13;
+}</macroponent_config>
+        <name>Disney Search Page Default</name>
+        <order>0</order>
+        <parent_macroponent/>
+        <screen_condition/>
+        <screen_type display_value="Disney Search Page">5216038773111010791e33083cf6a72c</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 09:26:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d719f0f73111010791e33083cf6a72f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disney Search Page Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_screen_1d719f0f73111010791e33083cf6a72f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 09:26:44</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

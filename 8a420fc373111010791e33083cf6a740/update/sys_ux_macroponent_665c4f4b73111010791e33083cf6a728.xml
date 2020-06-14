@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {&#13;
+  "elementId" : "ckbcdwcnvaaaaaaffddhhheesgmtggwvee",&#13;
+  "elementLabel" : "Breadcrumbs",&#13;
+  "propertyValues" : {&#13;
+    "items" : {&#13;
+      "type" : "DATA_OUTPUT_BINDING",&#13;
+      "binding" : {&#13;
+        "address" : [ "ckbcdwlcciiaaaaaahhddhhheeqodfffggbb", "output" ]&#13;
+      }&#13;
+    },&#13;
+    "delimiter" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "chevron"&#13;
+    },&#13;
+    "overflow" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "collapse"&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "ckbcdwcnw00063h74oujh18nn",&#13;
+  "definition" : {&#13;
+    "id" : "9c2e48402c6c25d281faeb20637f6106",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "styles" : {&#13;
+    "padding" : "3em"&#13;
+  }&#13;
+}, {&#13;
+  "elementId" : "ckbcdzeejuaaaaaagddhhheeiihggegbbar",&#13;
+  "elementLabel" : "Catalog Item",&#13;
+  "propertyValues" : {&#13;
+    "sysId" : {&#13;
+      "type" : "CONTEXT_BINDING",&#13;
+      "binding" : {&#13;
+        "category" : "props",&#13;
+        "address" : [ "sysId" ]&#13;
+      }&#13;
+    },&#13;
+    "requestedFor" : {&#13;
+      "type" : "CONTEXT_BINDING",&#13;
+      "binding" : {&#13;
+        "category" : "props",&#13;
+        "address" : [ "reqFor" ]&#13;
+      }&#13;
+    },&#13;
+    "showRequestForHeader" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : true&#13;
+    },&#13;
+    "submitPosition" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "right"&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "ckbcdwcnw00063h74oujh18nn",&#13;
+  "definition" : {&#13;
+    "id" : "afeef20635001010f877265d86f080df",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "styles" : { }&#13;
+} ]</composition>
+        <data>[ {&#13;
+  "definition" : {&#13;
+    "id" : "285650a973051010f8b01e3014f6a7cc",&#13;
+    "type" : "TRANSFORM"&#13;
+  },&#13;
+  "elementId" : "ckbcdwlcciiaaaaaahhddhhheeqodfffggbb",&#13;
+  "eventMappings" : [ ],&#13;
+  "inputValues" : {&#13;
+    "sysId" : "@context.props.sysId"&#13;
+  },&#13;
+  "elementLabel" : "breadcrumb"&#13;
+} ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <layout>{&#13;
+  "default" : {&#13;
+    "type" : "grid",&#13;
+    "root" : null,&#13;
+    "items" : [{"slotName":"ckbcdwcnw00063h74oujh18nn","rules":{"grid-area":"ckbcdwcnw00063h74oujh18nn"},"styles":{"display":"flex","flex-direction":"column"}}],&#13;
+    "rules" : {"grid-template-rows":"1fr","grid-template-columns":"1fr","grid-template-areas":"'ckbcdwcnw00063h74oujh18nn'"},&#13;
+    "styles" : null,&#13;
+    "children" : null&#13;
+  }&#13;
+}</layout>
+        <macroponent_dependencies/>
+        <name>Disney Uber-Catalog Item Page</name>
+        <props>[ {&#13;
+  "name" : "reqFor",&#13;
+  "label" : "reqFor",&#13;
+  "fieldType" : "string",&#13;
+  "typeMetadata" : null,&#13;
+  "valueType" : "string",&#13;
+  "mandatory" : false,&#13;
+  "defaultValue" : null,&#13;
+  "description" : null,&#13;
+  "readOnly" : false,&#13;
+  "selectable" : false&#13;
+}, {&#13;
+  "name" : "sysId",&#13;
+  "label" : "sysId",&#13;
+  "fieldType" : "string",&#13;
+  "typeMetadata" : null,&#13;
+  "valueType" : "string",&#13;
+  "mandatory" : false,&#13;
+  "defaultValue" : null,&#13;
+  "description" : null,&#13;
+  "readOnly" : false,&#13;
+  "selectable" : false&#13;
+} ]</props>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 09:03:34</sys_created_on>
+        <sys_id>665c4f4b73111010791e33083cf6a728</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Disney Uber-Catalog Item Page</sys_name>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_macroponent_665c4f4b73111010791e33083cf6a728</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 09:15:59</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

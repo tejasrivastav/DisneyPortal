@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="DisneyUXAppConfig">4303430773111010791e33083cf6a7f6</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Disney Confirmation Page">10fd4f8b73111010791e33083cf6a7cc</macroponent>
+        <macroponent_config>{ }</macroponent_config>
+        <name>Disney Confirmation Page Default</name>
+        <order>0</order>
+        <parent_macroponent/>
+        <screen_condition/>
+        <screen_type display_value="Disney Confirmation Page">334a4f0b73111010791e33083cf6a789</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 09:10:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>acdd0f8b73111010791e33083cf6a73f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disney Confirmation Page Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_screen_acdd0f8b73111010791e33083cf6a73f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 09:10:45</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

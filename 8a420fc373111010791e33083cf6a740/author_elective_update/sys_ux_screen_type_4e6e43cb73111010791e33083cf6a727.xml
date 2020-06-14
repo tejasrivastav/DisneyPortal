@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Disney Register Default</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 09:11:45</sys_created_on>
+        <sys_id>4e6e43cb73111010791e33083cf6a727</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disney Register Default</sys_name>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_screen_type_4e6e43cb73111010791e33083cf6a727</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 09:11:45</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</application>
+        <file_path/>
+        <instance_id>05742dba73111010791e33083cf6a7be</instance_id>
+        <instance_name>unregistered</instance_name>
+        <name>sys_ux_screen_type_4e6e43cb73111010791e33083cf6a727</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>Disney Register Default</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-14 09:11:45</sys_created_on><sys_id>4e6e43cb73111010791e33083cf6a727</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Disney Register Default</sys_name><sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package><sys_policy/><sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope><sys_update_name>sys_ux_screen_type_4e6e43cb73111010791e33083cf6a727</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-14 09:11:45</sys_updated_on></sys_ux_screen_type></record_update>]]></payload>
+        <payload_hash>1174222010</payload_hash>
+        <record_name>Disney Register Default</record_name>
+        <reverted_from/>
+        <source>0e420fc373111010791e33083cf6a742</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 09:11:45</sys_created_on>
+        <sys_id>0f6e43cb73111010791e33083cf6a767</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172b21959c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 09:11:45</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>476e43cbff1110101dbf3d1fa011f567</update_guid>
+        <update_guid_history>476e43cbff1110101dbf3d1fa011f567:1174222010</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 09:12:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>08c64de672c94500b27ca0a4683a4c90</sys_id>
+        <sys_metadata>4e6e43cb73111010791e33083cf6a727</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disney Register Default</sys_name>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_scope_delete display_value="">823701810c484cf8bba32c276bf45c40</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_4e6e43cb73111010791e33083cf6a727</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_4e6e43cb73111010791e33083cf6a727">0f6e43cb73111010791e33083cf6a767</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 09:12:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

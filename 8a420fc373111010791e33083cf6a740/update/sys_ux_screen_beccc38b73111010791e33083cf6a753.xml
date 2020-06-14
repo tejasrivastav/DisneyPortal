@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="DisneyUXAppConfig">4303430773111010791e33083cf6a7f6</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Requests">fc0d478b73111010791e33083cf6a7da</macroponent>
+        <macroponent_config>{ }</macroponent_config>
+        <name>Requests Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Disney Activity Center Default">f5798fc773111010791e33083cf6a734</parent_macroponent>
+        <screen_condition/>
+        <screen_type display_value="Requests">d4294fc773111010791e33083cf6a751</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 09:06:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>beccc38b73111010791e33083cf6a753</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requests Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_screen_beccc38b73111010791e33083cf6a753</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 09:06:51</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

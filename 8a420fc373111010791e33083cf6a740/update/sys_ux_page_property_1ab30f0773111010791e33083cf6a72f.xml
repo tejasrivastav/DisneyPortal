@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="DisneyUXApp">f972cfc373111010791e33083cf6a7e3</page>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 08:25:46</sys_created_on>
+        <sys_id>1ab30f0773111010791e33083cf6a72f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_page_property_1ab30f0773111010791e33083cf6a72f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 08:25:46</sys_updated_on>
+        <type>json</type>
+        <unique_name>sn_disneyportal.f972cfc373111010791e33083cf6a7e3.root.chrome_footer</unique_name>
+        <value>{&#13;
+  "public_page": {&#13;
+    "enable_footer_topbar": true,&#13;
+    "footer_topbar_options": {&#13;
+      "enable_logo": true,&#13;
+      "enable_address": true,&#13;
+      "address": {&#13;
+        "email": "info@servicenow.com",&#13;
+        "first_line": {&#13;
+          "street": "2225 Lawson Lane"&#13;
+        },&#13;
+        "second_line": {&#13;
+          "city": "Santa Clara",&#13;
+          "state": "CA",&#13;
+          "zip": "95054"&#13;
+        }&#13;
+      },&#13;
+      "enable_linkset_group": true,&#13;
+      "max_linkset_count": 5&#13;
+    },&#13;
+    "enable_footer_bar": true,&#13;
+    "footer_bar_options": {&#13;
+      "enable_links": true,&#13;
+      "max_links_count": 5,&#13;
+      "links": [&#13;
+        {&#13;
+          "id": 1,&#13;
+          "type": "external",&#13;
+          "target": "_blank",&#13;
+          "label": "Terms and conditions",&#13;
+          "itemValue": {&#13;
+            "href": "//www.servicenow.com/terms-of-use.html"&#13;
+          }&#13;
+        },&#13;
+        {&#13;
+          "id": 2,&#13;
+          "type": "external",&#13;
+          "target": "_self",&#13;
+          "download": true,&#13;
+          "label": "Privacy policy",&#13;
+          "itemValue": {&#13;
+            "href": "sys_attachment.do?sys_id=51752cd5536300107388ddeeff7b12bb"&#13;
+          }&#13;
+        }&#13;
+      ],&#13;
+      "enable_social_links": true,&#13;
+      "social_links": [&#13;
+        {&#13;
+          "id": 1,&#13;
+          "icon": "envelope-outline",&#13;
+          "target": "_blank",&#13;
+          "itemValue": {&#13;
+            "href": "//twitter.com/servicenow"&#13;
+          }&#13;
+        },&#13;
+        {&#13;
+          "id": 2,&#13;
+          "icon": "envelope-outline",&#13;
+          "target": "_blank",&#13;
+          "itemValue": {&#13;
+            "href": "//www.linkedin.com/company/servicenow/"&#13;
+          }&#13;
+        },&#13;
+        {&#13;
+          "id": 3,&#13;
+          "icon": "envelope-outline",&#13;
+          "target": "_blank",&#13;
+          "itemValue": {&#13;
+            "href": "//www.facebook.com/servicenow"&#13;
+          }&#13;
+        }&#13;
+      ],&#13;
+      "enable_copyright_text": true,&#13;
+      "copyright_text": "© 2020 ServiceNow. All rights reserved."&#13;
+    }&#13;
+  }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=1ab30f0773111010791e33083cf6a72f"/>
+</record_update>

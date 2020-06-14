@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="DisneyUXApp">f972cfc373111010791e33083cf6a7e3</page>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 08:43:27</sys_created_on>
+        <sys_id>c8e703c773111010791e33083cf6a761</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_page_property_c8e703c773111010791e33083cf6a761</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 08:43:27</sys_updated_on>
+        <type>json</type>
+        <unique_name>sn_disneyportal.f972cfc373111010791e33083cf6a7e3.root.chrome_header</unique_name>
+        <value>{&#13;
+    "privatePage": {&#13;
+        "notificationsEnabled": true,&#13;
+        "searchEnabled": true,&#13;
+        "userPrefsEnabled": true,&#13;
+        "contextualConfigurationItems": {&#13;
+            "enabled": false&#13;
+        },&#13;
+        "globalTools": {&#13;
+            "collapsingMenuId": 0,&#13;
+            "primaryItems": [&#13;
+                {&#13;
+                    "label": "UserMenu",&#13;
+                    "icon": "user",&#13;
+                    "type": "menu",&#13;
+                    "primaryDisplay": "icon",&#13;
+                    "value": {&#13;
+                        "children": [&#13;
+                            {&#13;
+                                "label": "Requests",&#13;
+                                "position": 100,&#13;
+                                "type": "navigation",&#13;
+                                "value": {&#13;
+                                    "type": "route",&#13;
+                                    "value": {&#13;
+                                        "route": "requests",&#13;
+                                        "fields": {}&#13;
+                                    }&#13;
+                                }&#13;
+                            },&#13;
+                            {&#13;
+                                "label": "ServiceNow",&#13;
+                                "position": 200,&#13;
+                                "type": "navigation",&#13;
+                                "value": {&#13;
+                                    "target": "_blank",&#13;
+                                    "type": "external",&#13;
+                                    "value": "https://www.servicenow.com"&#13;
+                                }&#13;
+                            },&#13;
+                            {&#13;
+                                "label": "Call Support",&#13;
+                                "position": 300,&#13;
+                                "type": "navigation",&#13;
+                                "value": {&#13;
+                                    "target": "_self",&#13;
+                                    "type": "phone",&#13;
+                                    "value": "+1(408)501-8550"&#13;
+                                }&#13;
+                            },&#13;
+                            {&#13;
+                                "label": "Email Support",&#13;
+                                "position": 400,&#13;
+                                "type": "navigation",&#13;
+                                "value": {&#13;
+                                    "target": "_self",&#13;
+                                    "type": "email",&#13;
+                                    "value": "customer_support@servicenow.com"&#13;
+                                }&#13;
+                            },&#13;
+                            {&#13;
+                                "label": "Logout",&#13;
+                                "position": 500,&#13;
+                                "type": "navigation",&#13;
+                                "value": {&#13;
+                                    "_meta": {&#13;
+                                        "_path": "value.route",&#13;
+                                        "_value": {&#13;
+                                            "value": {&#13;
+                                                "route": "auth_routes.logout",&#13;
+                                                "reload": true,&#13;
+                                                "fields": {}&#13;
+                                            },&#13;
+                                            "type": "route"&#13;
+                                        },&#13;
+                                        "_default": {&#13;
+                                            "value": "/logout.do",&#13;
+                                            "type": "external"&#13;
+                                        }&#13;
+                                    }&#13;
+                                }&#13;
+                            }&#13;
+                        ]&#13;
+                    }&#13;
+                },&#13;
+                {&#13;
+                    "label": "Notifications",&#13;
+                    "icon": "bell-outline",&#13;
+                    "type": "action",&#13;
+                    "primaryDisplay": "icon",&#13;
+                    "value": {&#13;
+                        "name": "NOTIFICATION_CENTER#CLICKED",&#13;
+                        "payload": {}&#13;
+                    }&#13;
+                }&#13;
+            ],&#13;
+            "secondaryItems": [&#13;
+                {&#13;
+                    "label": "Tasks",&#13;
+                    "position": 20,&#13;
+                    "primaryDisplay": "both",&#13;
+                    "type": "navigation",&#13;
+                    "alert": {&#13;
+                        "table": "task",&#13;
+                        "filter": "assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe"&#13;
+                    },&#13;
+                    "value": {&#13;
+                        "type": "external",&#13;
+                        "target": "_blank",&#13;
+                        "value": "https://www.servicenow.com"&#13;
+                    }&#13;
+                },&#13;
+                {&#13;
+                    "label": "I need help",&#13;
+                    "position": 10,&#13;
+                    "primaryDisplay": "both",&#13;
+                    "type": "navigation",&#13;
+                    "value": {&#13;
+                        "type": "route",&#13;
+                        "value": {&#13;
+                            "route": "requests",&#13;
+                            "fields": {}&#13;
+                        }&#13;
+                    }&#13;
+                }&#13;
+            ]&#13;
+        }&#13;
+    },&#13;
+    "publicPage": {&#13;
+        "actionButtons": [&#13;
+            {&#13;
+                "label": "Login",&#13;
+                "value": {&#13;
+                    "_meta": {&#13;
+                        "_path": "value.route",&#13;
+                        "_value": {&#13;
+                            "value": {&#13;
+                                "route": "auth_routes.login",&#13;
+                                "fields": {}&#13;
+                            },&#13;
+                            "type": "route"&#13;
+                        },&#13;
+                        "_default": {&#13;
+                            "value": "/login.do",&#13;
+                            "type": "external"&#13;
+                        }&#13;
+                    }&#13;
+                },&#13;
+                "bare": true,&#13;
+                "primary": false&#13;
+            },&#13;
+            {&#13;
+                "label": "Register",&#13;
+                "value": {&#13;
+                    "_meta": {&#13;
+                        "_path": "value.route",&#13;
+                        "_value": {&#13;
+                            "value": {&#13;
+                                "route": "auth_routes.register",&#13;
+                                "fields": {}&#13;
+                            },&#13;
+                            "type": "route"&#13;
+                        },&#13;
+                        "_default": {&#13;
+                            "value": "/login.do",&#13;
+                            "type": "external"&#13;
+                        }&#13;
+                    }&#13;
+                },&#13;
+                "bare": false,&#13;
+                "primary": true&#13;
+            }&#13;
+        ]&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=c8e703c773111010791e33083cf6a761"/>
+</record_update>

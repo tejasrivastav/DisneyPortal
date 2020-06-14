@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="DisneyUXApp">f972cfc373111010791e33083cf6a7e3</page>
+        <route display_value="Disney Landing Page">7c94834773111010791e33083cf6a7aa</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 08:33:30</sys_created_on>
+        <sys_id>28950f4773111010791e33083cf6a7ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_page_property_28950f4773111010791e33083cf6a7ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 08:33:30</sys_updated_on>
+        <type>json</type>
+        <unique_name>sn_disneyportal.f972cfc373111010791e33083cf6a7e3.route.chrome_header.7c94834773111010791e33083cf6a7aa</unique_name>
+        <value>{&#13;
+        "privatePage": {&#13;
+            "searchEnabled": false&#13;
+         }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=28950f4773111010791e33083cf6a7ad"/>
+</record_update>

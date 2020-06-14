@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {&#13;
+  "elementId" : "ckadspthhiiaaaaaafddhhheeaxbblbhlb",&#13;
+  "elementLabel" : "Tab Set",&#13;
+  "propertyValues" : {&#13;
+    "dynamicTabData" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : ""&#13;
+    },&#13;
+    "defaultRoute" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "ckadsyc1c00013h8ii6s6ipb1"&#13;
+    },&#13;
+    "nowId" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : ""&#13;
+    },&#13;
+    "repeatedTabData" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : null&#13;
+    },&#13;
+    "tabs" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : null&#13;
+    },&#13;
+    "selectedTab" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : null&#13;
+    },&#13;
+    "selectedIndex" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : null&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "ckadspt78000g3h740zov83jv",&#13;
+  "definition" : {&#13;
+    "id" : "b324da974cef96f2db1d484cfeda4e3e",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "styles" : { }&#13;
+}, {&#13;
+  "elementId" : "ckapkhhmggaaaaaaaaccddhhheehhjjcczffvun",&#13;
+  "elementLabel" : "Breadcrumbs",&#13;
+  "propertyValues" : {&#13;
+    "items" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : [ {&#13;
+        "label" : "First Item",&#13;
+        "href" : "/now/proto/portal-m6/home",&#13;
+        "icon" : "home-outline",&#13;
+        "hideLabel" : true&#13;
+      }, {&#13;
+        "label" : "Activity Center",&#13;
+        "href" : "#"&#13;
+      } ]&#13;
+    },&#13;
+    "overflow" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "collapse"&#13;
+    },&#13;
+    "delimiter" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "chevron"&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "ckapk7m6100033h74iiq3elhd",&#13;
+  "definition" : {&#13;
+    "id" : "9c2e48402c6c25d281faeb20637f6106",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "styles" : { }&#13;
+}, {&#13;
+  "elementId" : "ckapkexfgaaaaaaiiddhhheeuaaffmzhb",&#13;
+  "elementLabel" : "Heading",&#13;
+  "propertyValues" : {&#13;
+    "label" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "Activity Center"&#13;
+    },&#13;
+    "variant" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "header-primary"&#13;
+    },&#13;
+    "wontWrap" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : false&#13;
+    },&#13;
+    "hasNoMargin" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : false&#13;
+    },&#13;
+    "level" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "1"&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "ckapkexfg00093h7433s7aodl",&#13;
+  "definition" : {&#13;
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "styles" : { }&#13;
+}, {&#13;
+  "elementId" : "ckbggbbjccnzaaaaaaiddhhhccpttkiiqdw",&#13;
+  "elementLabel" : "Breadcrumbs",&#13;
+  "propertyValues" : {&#13;
+    "items" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : [ {&#13;
+        "label" : "First Item",&#13;
+        "href" : "/now/proto/portal-m6/home",&#13;
+        "icon" : "home-outline",&#13;
+        "hideLabel" : true&#13;
+      }, {&#13;
+        "label" : "Activity Center",&#13;
+        "href" : "#"&#13;
+      } ]&#13;
+    },&#13;
+    "delimiter" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "chevron"&#13;
+    },&#13;
+    "overflow" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "collapse"&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "ckadspt78000h3h74r6sxbdvh",&#13;
+  "definition" : {&#13;
+    "id" : "9c2e48402c6c25d281faeb20637f6106",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "styles" : { }&#13;
+}, {&#13;
+  "elementId" : "ckbggcchhbloaaaaaalddhhhcccchhehcggo",&#13;
+  "elementLabel" : "Breadcrumbs",&#13;
+  "propertyValues" : {&#13;
+    "items" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : [ {&#13;
+        "label" : "First Item",&#13;
+        "href" : "/now/proto/portal-m6/home",&#13;
+        "icon" : "home-outline",&#13;
+        "hideLabel" : true&#13;
+      }, {&#13;
+        "label" : "Activity Center",&#13;
+        "href" : "#"&#13;
+      } ]&#13;
+    },&#13;
+    "delimiter" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "chevron"&#13;
+    },&#13;
+    "overflow" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "collapse"&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "breadcrumb",&#13;
+  "definition" : {&#13;
+    "id" : "9c2e48402c6c25d281faeb20637f6106",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "styles" : { }&#13;
+}, {&#13;
+  "elementId" : "ckbggddaaqccuaaaaaamddhhhccsiikjjhhjjhg",&#13;
+  "elementLabel" : "Heading",&#13;
+  "propertyValues" : {&#13;
+    "label" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "Activity Center"&#13;
+    },&#13;
+    "level" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "1"&#13;
+    },&#13;
+    "variant" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "header-secondary"&#13;
+    },&#13;
+    "wontWrap" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : false&#13;
+    },&#13;
+    "hasNoMargin" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : false&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "heading",&#13;
+  "definition" : {&#13;
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "styles" : { }&#13;
+}, {&#13;
+  "elementId" : "ckbggddhhexaaaaaaaoddhhhccjjaavjnaapbb",&#13;
+  "elementLabel" : "Tab Set",&#13;
+  "propertyValues" : {&#13;
+    "dynamicTabData" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : ""&#13;
+    },&#13;
+    "defaultRoute" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "ckb637k6j00003h8gxhccoya6"&#13;
+    },&#13;
+    "nowId" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : ""&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "content",&#13;
+  "definition" : {&#13;
+    "id" : "b324da974cef96f2db1d484cfeda4e3e",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : false&#13;
+  },&#13;
+  "styles" : { }&#13;
+} ]</composition>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <layout>{&#13;
+  "default" : {&#13;
+    "type" : "grid",&#13;
+    "root" : null,&#13;
+    "items" : [{"slotName":"breadcrumb","rules":{"grid-area":"breadcrumb","vertical-align":"middle","background-color":"#f6f7f7","margin":"-2em"},"styles":{"padding":"2em 4em"}},{"slotName":"heading","rules":{"grid-area":"heading","margin":"0"},"styles":{"display":"flex","padding":"0 2rem"}},{"slotName":"content","rules":{"grid-area":"content"},"styles":{"display":"flex","padding":"0 2rem"}}],&#13;
+    "rules" : {"height":"120vh","grid":"[row1-start] \"breadcrumb\" 5em [row1-end] [row2-start] \"heading\" 4em [row2-end] [row3-start] \"content\" 24rem [row3-end]/ 100% auto","grid-gap":"0px","place-content":"stretch","place-items":"stretch","padding":"0px"},&#13;
+    "styles" : {},&#13;
+    "children" : null&#13;
+  }&#13;
+}</layout>
+        <macroponent_dependencies/>
+        <name>Disney Activity Center Default</name>
+        <props>[ ]</props>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 08:50:57</sys_created_on>
+        <sys_id>f5798fc773111010791e33083cf6a734</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disney Activity Center Default</sys_name>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_macroponent_f5798fc773111010791e33083cf6a734</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 08:50:57</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

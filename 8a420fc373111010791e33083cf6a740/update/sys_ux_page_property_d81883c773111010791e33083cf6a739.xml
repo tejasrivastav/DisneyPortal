@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_menu</name>
+        <page display_value="DisneyUXApp">f972cfc373111010791e33083cf6a7e3</page>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-14 08:44:15</sys_created_on>
+        <sys_id>d81883c773111010791e33083cf6a739</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu</sys_name>
+        <sys_package display_value="DisneyPortal" source="sn_disneyportal">8a420fc373111010791e33083cf6a740</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DisneyPortal">8a420fc373111010791e33083cf6a740</sys_scope>
+        <sys_update_name>sys_ux_page_property_d81883c773111010791e33083cf6a739</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-14 08:44:15</sys_updated_on>
+        <type>json</type>
+        <unique_name>sn_disneyportal.f972cfc373111010791e33083cf6a7e3.root.chrome_menu</unique_name>
+        <value>[&#13;
+  {&#13;
+    "value": {&#13;
+      "label": "Apps"&#13;
+    },&#13;
+    "children": {&#13;
+      "action": {&#13;
+        "label": "One",&#13;
+        "type": "route",&#13;
+        "value": {&#13;
+          "route": "browse_all_page",&#13;
+          "fields": {}&#13;
+        }&#13;
+      },&#13;
+      "items": [&#13;
+        {&#13;
+          "value": {&#13;
+            "label": "One",&#13;
+            "target": "_blank",&#13;
+            "type": "external",&#13;
+            "rightIcon": "open-link-fill",&#13;
+            "value": "https://demonightlyuxf.service-now.com/"&#13;
+          }&#13;
+        }&#13;
+      ]&#13;
+    }&#13;
+  },&#13;
+  {&#13;
+    "value": {&#13;
+      "label": "Networks"&#13;
+    },&#13;
+    "children": {&#13;
+      "action": {&#13;
+        "label": "Two",&#13;
+        "type": "route",&#13;
+        "value": {&#13;
+          "route": "browse_all_page",&#13;
+          "fields": {}&#13;
+        }&#13;
+      },&#13;
+      "items": [&#13;
+        {&#13;
+          "value": {&#13;
+            "label": "Two",&#13;
+            "target": "_blank",&#13;
+            "type": "external",&#13;
+            "rightIcon": "open-link-fill",&#13;
+            "value": "https://demonightlyuxf.service-now.com/"&#13;
+          }&#13;
+        }&#13;
+      ]&#13;
+    }&#13;
+  },&#13;
+  {&#13;
+    "value": {&#13;
+      "label": "Security"&#13;
+    }&#13;
+  }&#13;
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=d81883c773111010791e33083cf6a739"/>
+</record_update>
